@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+    font-family: 'Public Sans', sans-serif;
+}
+
+#main{
+    background: linear-gradient(135deg, white,rgb(190,97,38),rgb(172,68,11),white);
+    color: #f1f1f1;
+    text-align: center;
+}
+
+#title{
+    padding: 3rem;
+    border-bottom: 1px solid rgb(190,97,38);
+    box-shadow: 3px 3px 6px white;
+    border-radius: 5%;
+}
+
+#title h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 3px rgb(172,68,11);
+}
+
+#title p{
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 3px rgb(172,68,11);
+    margin-top: 0.5rem;
+}
+
+#img-div{
+    width: 80%;
+    padding: 5em 0 3em;
+    margin: 0 auto;
+}
+
+#img-div img{
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 45%;
+}
+
+#img-caption{
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px #777;
+    margin: 1rem 0 0;
+}
+
+#tribute-info p{
+    margin-bottom: 1em;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.footer{
+    background: linear-gradient(225deg, white,rgb(190,97,38),rgb(172,68,11));
+    padding: 4em;
+    border-radius: 5% 5% 0 0 ;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    border-top: 1px solid rgb(190,97,38);
+    box-shadow: 3px 3px 6px white;
+    margin-top: 5em;
+    opacity: 0.7;
+}
+
+#tribute-link{
+    font-size: 1.05rem;
+    color: inherit;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-decoration: underline;
+    opacity: 0.7;
+    transition: opacity 200ms ease-in-out;
+}
+
+#tribute-link:hover{
+    opacity: 1;
+}
